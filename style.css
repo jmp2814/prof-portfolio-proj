@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+body {
+    background-color:darkgrey;
+}
+
+
+header {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    text-shadow: 2px 2px 2px aqua;
+    padding: 3px;
+}
+
+nav {
+    background-color:darksalmon;
+    padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: black;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: solid;
+}
+
+.avatar {
+    height: 225px;
+    width: 175px;
+    border: 5px;
+    border-style:ridge;
+    border-color: black;
+    margin: 15px;
+    padding: 2px;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    
+}
+
+.work h2 {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 32px;
+    margin: 8px;
+    text-decoration: underline;
+}
+
+#My-Work {
+    display: block;
+    height: 600px;
+    width: 475px;  
+}
+
+.work {
+    margin:0px 10px 5px 10px;
+    max-width: 490px;
+}
+
+.work p {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 409px;
+}
