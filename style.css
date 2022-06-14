@@ -9,18 +9,28 @@ body {
 
 
 header {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
     font-size: 40px;
     color:black;
     text-shadow: 2px 2px 2px aqua;
     padding: 3px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 15px 10px 15px;
+}
+
+h1 {
+    display:inline;
+}
+
 nav {
-    background-color:darksalmon;
+    background-color: #46f252;
     padding: 6px;
     display: flex;
     flex-wrap: wrap;
@@ -39,6 +49,7 @@ nav a {
     border: 5px;
     border-style:ridge;
     border-color: black;
+    box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
     margin: 15px;
     padding: 2px;
 }
@@ -46,28 +57,55 @@ nav a {
 .works {
     display: flex;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction: column;
+    background-color: rgb(134, 128, 128);
     
 }
 
-.work h2 {
-    display: block;
+.work1 h2 {
     display: flex;
     flex-wrap: wrap;
     font-size: 32px;
     margin: 8px;
     text-decoration: underline;
+    
+}
+
+
+.work h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 32px;
+    margin: 8px;
+    text-decoration: underline;
+    
 }
 
 #My-Work {
-    display: block;
-    height: 600px;
-    width: 475px;  
+    display: flex;
+    height: 1000px;
+    width: 775px;
+    border: black;
+    box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
+    border-style: ridge;
+    padding: 3px;
+    margin: 5px;  
+}
+
+.work1 {
+    margin:0px 10px 5px 10px;
+    max-width: 490px;
 }
 
 .work {
     margin:0px 10px 5px 10px;
     max-width: 490px;
+    border: black;
+    box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
+    border-style: ridge;
+    padding: 3px;
+    margin: 5px;  
+    
 }
 
 .work p {
