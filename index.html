@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="./reset.css"/>
     <title>Jake Perry | Full-Stack Web Developer</title>
     <link rel="icon" href="./assets/track coach.jpg" type="image/x-icon"></link>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+
   </head>
 
 <body>
@@ -22,7 +28,7 @@
 
       </header>
 
-    <nav>
+    <!-- <nav>
         <a href=#My-Work>My Work</a>
 
         <a href="#ams">Formal Training</a>
@@ -34,6 +40,25 @@
         <a href="https://linkedin.com/in/jake-perry-3782485a">LinkedIn</a>
 
         <a href="mailto:jmp2814@gmail.com">Gmail</a>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+            <a class="nav-link" href="#My-Work">My Work</a>
+            <a class="nav-link" href="#ams">Teacher Training</a>
+            <!-- <a class="nav-link" href="#blue-corn">Favorite Restaurant</a> -->
+            <a class="nav-link" href="https://github.com/jmp2814">GitHub</a> 
+            <a class="nav-link" href="https://linkedin.com/in/jake-perry-3782485a">LinkedIn</a> 
+            <a class="nav-link" href="mailto:jmp2814@gmail.com">Gmail</a> 
+          </div>
+        </div>
+      </div>
     </nav>
     
     
@@ -47,19 +72,28 @@
           </section>
           
           <section class="work">
-            <h2>Formal Training</h2>
+            <h2>Teacher Training</h2>
             <a href="https://amshq.org/">
               <img id="ams" src="./assets/AMS.png" alt="AMS Website"></img></a>
               <p>Recieved My AMS Early Childhood Certificate in 2018</p>
           </section>
           
-          <section class="work">
+          <!-- <section class="work">
             <h2>Favorite Restaurant</h2>
             <a href="https://www.bluecornmexphilly.com/">
               <img id="blue-corn" src="./assets/blue corn.png" alt="Blue Corn"></img></a>
               <p>Excellent Mexican Food With Great Specials</p>
             
-          </section>
+          </section> -->
+          <figure class="figure">
+            <a href="https://bremus124.github.io/Weather-Alerts-App/"> <img src="assets/alerts_screen.png" class="figure-img img-fluid rounded" alt="first project">
+            <figcaption class="figure-caption text-end">First group project</figcaption>
+          </figure>
+
+          <figure class="figure">
+            <a href="https://warm-beyond-95422.herokuapp.com/"> <img src="/assets/proj2screen.PNG" class="figure-img img-fluid rounded" alt="second project">
+            <figcaption class="figure-caption">Second group project. Deployed on Heroku.</figcaption>
+          </figure>
         </div>
     </main>
 </body>

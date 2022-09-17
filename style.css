@@ -1,116 +1,118 @@
 * {
-    box-sizing: border-box;
-    font-family:monospace;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  font-family: "Varela Round", sans-serif;
+  /* font-family:monospace; */
 }
 
 body {
-    background-color:darkgrey;
+  background-color: whitesmoke;
 }
 
-
 header {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 40px;
-    color:black;
-    text-shadow: 2px 2px 2px aqua;
-    padding: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  color: black;
+  text-shadow: 2px 2px 2px aqua;
+  padding: 3px;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0px 15px 10px 15px;
+  display: flex;
+  /* background-color: #7d6f62; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 15px 10px 15px;
 }
 
 h1 {
-    display:inline;
+  display: inline;
 }
 
 nav {
-    background-color: #46f252;
-    padding: 6px;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: #46f252;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 nav a {
-    color: black;
-    padding: 10px 15px;
-    font-size: 16px;
-    text-decoration: solid;
+  color: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-decoration: solid;
 }
 
 .avatar {
-    height: 225px;
-    width: 175px;
-    border: 5px;
-    border-style:ridge;
-    border-color: black;
-    box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
-    margin: 15px;
-    padding: 2px;
+  height: 225px;
+  width: 175px;
+  border: 5px;
+  border-style: ridge;
+  border-color: black;
+  box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
+  margin: 15px;
+  padding: 2px;
 }
 
 .works {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: rgb(134, 128, 128);
-    
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* background-color: rgb(134, 128, 128); */
 }
 
 .work1 h2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 32px;
-    margin: 8px;
-    text-decoration: underline;
-    
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 32px;
+  margin: 8px;
+  text-decoration: underline;
 }
 
-
 .work h2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 32px;
-    margin: 8px;
-    text-decoration: underline;
-    
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 32px;
+  margin: 8px;
+  text-decoration: underline;
 }
 
 #My-Work {
-    display: flex;
-    height: 1000px;
-    width: 775px;
-    border: black;
-    box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
-    border-style: ridge;
-    padding: 3px;
-    margin: 5px;  
+  display: flex;
+  height: 1000px;
+  width: 775px;
+  border: black;
+  box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
+  border-style: ridge;
+  padding: 3px;
+  margin: 5px;
 }
 
 .work1 {
-    margin:0px 10px 5px 10px;
-    max-width: 490px;
+  margin: 0px 10px 5px 10px;
+  max-width: 490px;
 }
 
 .work {
-    margin:0px 10px 5px 10px;
-    max-width: 490px;
-    border: black;
-    box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
-    border-style: ridge;
-    padding: 3px;
-    margin: 5px;  
-    
+  margin: 0px 10px 5px 10px;
+  max-width: 490px;
+  border: black;
+  box-shadow: 5px 5px 5px 5px rgb(95, 92, 92);
+  border-style: ridge;
+  padding: 3px;
+  margin: 5px;
 }
 
 .work p {
-    font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 409px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 409px;
+}
+
+.figure {
+  max-width: 490px;
+  max-height: 490px;
 }
